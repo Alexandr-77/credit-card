@@ -258,6 +258,10 @@ font-weight: 400;
    margin: 36px 16px;
    text-align: center;
    align-items:center;
+   background: #FFFFFF;
+   border: 1px solid #787878;
+   box-sizing: border-box;
+   border-radius: 10px;
 
 }
 .clever-fofm form .btn {
@@ -279,7 +283,7 @@ font-weight: 400;
 /* ============== questions ========== */
 .questions {
    background: url(../img/Rectangle-204.png) 0 0 / 100% no-repeat;
-   min-height: 645px;
+   min-height: 640px;
 }
 .questions h2 {
    font-weight: 700;
@@ -292,6 +296,10 @@ font-weight: 400;
 .questions-block {
    display: flex;
    justify-content: space-between;
+   /* background: #FFD300; */
+}
+.questions-block__item {
+   padding: 0 20px;
 }
 .questions-block__item-img {
    width: 170px;
