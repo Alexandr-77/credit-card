@@ -629,6 +629,13 @@ font-weight: 400;
   .clever h2 {
    font-size: 26px;
    line-height: 36px;
+   margin-bottom: 50px;
+   }
+   .clever-block__item h3 {}
+   .clever-fofm form input {
+      width: 250px;
+      height: 47px;
+      margin: 26px 0;
    }
    .questions {
       background: #FFD300;
