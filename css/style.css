@@ -279,7 +279,7 @@ font-weight: 400;
 /* ============== questions ========== */
 .questions {
    background: url(../img/Rectangle-204.png) 0 0 / 100% no-repeat;
-   min-height: 100vh;
+   min-height: 645px;
 }
 .questions h2 {
    font-weight: 700;
@@ -321,6 +321,11 @@ font-weight: 400;
 }
 
 
+/* =============== footer ============= */
+.footer {
+   background: #303849;
+   min-height: 425px;
+}
 
 
 /* =========== media =========== */
