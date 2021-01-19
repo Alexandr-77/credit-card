@@ -205,6 +205,7 @@ font-weight: 400;
    border-radius: 31.8449px;
    text-decoration: none;
    padding: 16px 37px;
+   color: #000000;
 }
 
 /* ============= clever ============= */
@@ -215,7 +216,111 @@ font-weight: 400;
    line-height: 53px;
    text-align: center;
    text-transform: uppercase;
+   margin-bottom: 117px;
 }
+.clever-block {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 190px;
+}
+.clever-block__item-img {
+   width: 240px;
+   height: 240px;
+}
+.clever-block__item img {
+   display: block;
+   max-width: 100%;
+}
+.clever-block__item h3 {
+   width: 240px;
+   margin-top: 30px;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+}
+.clever-block__item h3 span {
+   display: block;
+   font-weight: 300;
+   font-size: 17px;
+   line-height: 21px;
+   text-align: center;
+}
+/* ======= clever-fofm =========== */
+.clever-fofm {
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.clever-fofm form input {
+   width: 360px;
+   height: 83px;
+   margin: 36px 16px;
+   text-align: center;
+   align-items:center;
+
+}
+.clever-fofm form .btn {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 33px;
+   text-align: center;
+   color: #000000;
+   border: 0.2px solid #FFE15A;
+   text-shadow: 0px 0.5px 2px #FFE15A;
+   background: linear-gradient(180deg, #FEDD46 0%, #FABD16 100%);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   padding: 19px 15px;
+   width: 283px;
+   margin: 45px 0;
+}
+
+/* ============== questions ========== */
+.questions {
+   background: url(../img/Rectangle-204.png) 0 0 / 100% no-repeat;
+   min-height: 100vh;
+}
+.questions h2 {
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 53px;
+   text-align: center;
+   text-transform: uppercase;
+   padding: 200px 0 70px;
+}
+.questions-block {
+   display: flex;
+   justify-content: space-between;
+}
+.questions-block__item-img {
+   width: 170px;
+   margin: 22px auto;
+}
+.questions-block__item-img img {
+   max-width: 100%;
+}
+.questions-block__item-text {
+   text-align: center;
+}
+.questions-block__item-text p {
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   color: #000000;
+}
+.questions-block__item-text a {
+   display: block;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+   text-decoration-line: underline;
+   color: #FFFFFF;
+}
+
+
 
 
 /* =========== media =========== */
