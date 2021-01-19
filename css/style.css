@@ -643,5 +643,10 @@ font-weight: 400;
       background: #FFD300;
       padding-bottom: 50px;
    }
+   .questions h2 {
+      font-size: 28px;
+      line-height: 28px;
+      padding: 100px 0 70px;
+   }
 }
 
