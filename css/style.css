@@ -691,6 +691,9 @@ font-weight: 400;
       height: 47px;
       margin: 10px 0;
    }
+   .clever-fofm form .btn {
+      padding: 10px 15px;
+  }
    .questions h2 {
       font-size: 28px;
       line-height: 28px;
