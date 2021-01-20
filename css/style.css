@@ -188,6 +188,7 @@ font-weight: 400;
 .conditions-block__item-text ul span {
    color: #000000;
 }
+
 .conditions-block__item-text p a {
    color: #40bcff;
 }
@@ -488,21 +489,30 @@ font-weight: 400;
    }
    .preview-block__card img {
       display: block;
-      margin: 0px auto 70px;
+      margin: 0px auto 15px;
    }
    .preview-block__percent {
       text-align: center;
    }
    .preview-block__percent-credit {
-      margin: 50px 0;
+      margin: 28px 0;
       display: flex;
       justify-content: space-between;
    }
    .conditions-bl {
-      margin: 130px 0 40px;
+      margin: 30px 0 40px;
   }
   .preview-btn {
    padding: 40px 0 20px 0px;
+   }
+   .conditions-btn {
+      margin: 50px auto;
+   }
+   .clever-block {
+      margin-bottom: 50px;
+   }
+   .clever h2 {
+      margin-bottom: 0px;
    }
 }
 /* ======== media 760 ======== */
@@ -515,7 +525,7 @@ font-weight: 400;
    }
    .preview-text {
       margin: 0;
-      padding: 0 30px;
+      padding: 8 30px;
    }
    .preview-btn {
       padding: 40px 0 20px 0px;
@@ -532,15 +542,26 @@ font-weight: 400;
    margin: 0;
    }
    /*  === clever-block === */
+   .clever h2 {
+      margin-bottom: 0;
+   }
    .clever-block {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin: 0;
    }
-
    .clever-block__item h3 {
-      margin: 25px auto 80px;
+      margin: 25px auto 50px;
    }
+   .clever-fofm form input {
+      width: 260px;
+      height: 65px;
+      margin: 10px 10px;
+   }
+   .clever-fofm form .btn {
+      margin: 45px 0 0;
+  }
    .questions-block {
       display: flex;
       flex-direction: column;
@@ -574,6 +595,7 @@ font-weight: 400;
    }
    .preview-text {
       font-size: 30px;
+      line-height: 32px;
    }
   .preview-btn {
     padding: 0 20px;
@@ -582,11 +604,11 @@ font-weight: 400;
    .preview-btn-1 {
       font-size: 15px;
       padding: 16px 38px;
-      margin: 30px 0;
+      margin: 10px 0;
       display: block;
    }
   .preview-btn-2 {
-   margin: 30px 0;
+   margin: 10px 0;
    display: block;
    }
    .preview {
@@ -598,7 +620,21 @@ font-weight: 400;
    .preview-block__percent-credit-item {
       margin: 10px auto;
    }
-   
+   .clever h2 {
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 44px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      padding: 0;
+   }
+   .questions h2 {
+   padding: 90px 0 100px;
+   }
+   .questions-block__item {
+      padding: 5px 20px;
+  }
 }
 
 /* ======== media 460 ======== */
@@ -614,22 +650,31 @@ font-weight: 400;
    }
    .preview-block__card img {
       max-width: 260px;
-  }
+   }
+   .preview-block__percent h1 {
+      margin-bottom: 25px;
+   }
+   .preview-block__percent h2 {
+      font-size: 34px;
+   }
+   .preview-block__percent h2 span {
+      font-size: 34px;
+   }
    .conditions-bl h3 {
       font-size: 26px;
       line-height: 38px;
   }
-  .conditions-block__item {
-   display: block;
+   .conditions-block__item {
+      margin: 10px 10px;
    }
    .conditions-block__item-img {
       display: block;
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 0;
    }
    .conditions-block__item-text {
-      padding: 0 0 35px 24px;
-   }
+      padding: 0 0 0 15px;
+  }
    .conditions-btn {
       text-align: center;
    }
@@ -644,7 +689,7 @@ font-weight: 400;
    .clever-fofm form input {
       width: 250px;
       height: 47px;
-      margin: 26px 0;
+      margin: 10px 0;
    }
    .questions h2 {
       font-size: 28px;
